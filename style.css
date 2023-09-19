@@ -1,0 +1,44 @@
+#root{
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #758A9C;
+}
+
+#drum-machine{
+    text-align: center;
+    align-items: center;
+}
+
+#display{
+    margin-top: .5rem;
+    background: #dcd5d5;
+    margin:.5rem auto;
+    width: 14rem;
+    padding: 0.25rem;
+    font-size: 1.25rem;
+    border-radius: .5rem;
+}
+
+#keys{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.drum-pad{
+    background-color: #5B5A60;
+    color: white;
+    border-radius: .5rem;
+    width: 6.25rem;
+    height: 6.25rem;
+    margin: .5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.drum-pad:active{
+  background-color: #dcd5d5;
+  box-shadow: 0.2rem 0.25rem 0.25rem #202020; 
+  transform: translateY(0.1rem);
+}
